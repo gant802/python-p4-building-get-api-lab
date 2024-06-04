@@ -23,3 +23,5 @@ with app.app_context():
 
     db.session.add_all(baked_goods)
     db.session.commit()
+
+    import ipdb; ipdb.set_trace()
